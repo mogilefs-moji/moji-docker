@@ -1,5 +1,5 @@
 # moji-docker
-Image for moji build and integration test
+Image for [mogilefs-moji](https://github.com/mogilefs-moji/moji) build and integration test
 
 ## Quickstart
 ```
