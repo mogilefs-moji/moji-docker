@@ -2,8 +2,4 @@
 Image for [mogilefs-moji](https://github.com/mogilefs-moji/moji) build and integration test
 
 ## Quickstart
-```
-docker run -d --name mogile-node jeffutter/mogile-node
-docker run -it --link mogile-node:mogile-node mogilefs-moji
-```
-Enjoy it lol
+Follow the instrution [here](https://hub.docker.com/r/hrchu/mogile-moji/)
