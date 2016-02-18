@@ -9,6 +9,8 @@ RUN dpkg --add-architecture i386 \
 
 ADD run.sh /run.sh
 
+EXPOSE 7001
+
 ENTRYPOINT ["/run.sh"]
 
  
