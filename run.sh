@@ -30,5 +30,5 @@ mogadm check
 
 git clone https://github.com/mogilefs-moji/moji.git
 cd moji
-echo "Inital complete. Now you can run 'mvn integration' to ensure everything is right."
+echo "Inital complete. Now you can run 'mvn integration-test' to ensure everything is right."
 bash
