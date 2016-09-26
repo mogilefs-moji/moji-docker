@@ -22,7 +22,7 @@ then
   then
     for class in $classes
     do
-      mogadm --trackers=$trackers class add $domain $class --replpolicy="MultipleDevices()"
+      mogadm --trackers=$trackers class add $domain $class --replpolicy="MultipleDevices() --mindevcount=1"
     done
   fi
 fi
